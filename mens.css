@@ -207,19 +207,19 @@ body{
 .image{
     position: absolute;
     left: 80%;
-    right: 100px;
+    right: 80px;
     width: 40%;
-    height: 100%;
+    height: 80%;
     background: transparent;
     transition: .3s;
     transform: translate(-50%);
     bottom: 0%;
-    border-radius: 20px;
-    top: 0%;
+    border-radius: 50px;
+    top: 15%;
 }
 .image:hover{
     background: var(--bg-color);
-    opacity: .8;
+    opacity: .9;
 }
 @keyframes showRight{
     100%{
@@ -431,7 +431,7 @@ span{
     background: #00abf0;
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span{
-    width: 80%;
+    width: 70%;
 } 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span{
     width: 80%;
