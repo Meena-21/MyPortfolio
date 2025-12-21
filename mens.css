@@ -584,4 +584,44 @@ span{
         font-size: 55%;
     }
 }
+/* Tablet & Mobile */
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        display: none;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .input-box {
+        flex-direction: column;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+
+    .home-content h1 {
+        font-size: 26px;
+    }
+
+    .home-content h3 {
+        font-size: 18px;
+    }
+}
+
 
